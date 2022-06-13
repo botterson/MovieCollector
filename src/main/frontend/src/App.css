@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding: 15px;
+}
+.ant-form-item {
+  margin-bottom: 0;
+}

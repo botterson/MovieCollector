@@ -1,0 +1,13 @@
+.rating {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 2px solid lightgrey;
+  padding: 0.5rem;
+  border-radius: 14px;
+  min-width: 20px;
+  max-width: 120px;
+  flex: auto;
+  text-align: center;
+}
